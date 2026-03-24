@@ -32,5 +32,6 @@ namespace Infrastructure.AudioControl
         WinStreakObjectShow = 1021,
         WinStreakThrow = 1022,
         SuperSpeed = 1023,
+        CannonShoot = 1024,
     }
 }

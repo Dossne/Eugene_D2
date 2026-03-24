@@ -1524,6 +1524,7 @@ Transform:
   - {fileID: 1660697116879521671}
   - {fileID: 1476511950259029821}
   - {fileID: 1907542468692762902}
+  - {fileID: 7711223344556677882}
   m_Father: {fileID: 2553361233214866281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7696659714092883139
@@ -2463,6 +2464,8 @@ MonoBehaviour:
       Value: {fileID: 5913155355871499457}
     - Key: 1022
       Value: {fileID: 4074042268220614092}
+    - Key: 1024
+      Value: {fileID: 7711223344556677883}
   sfxEditor: 0
   debugVolume: 1
 --- !u!1 &9057413301793250080
@@ -2593,3 +2596,54 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+
+--- !u!1 &7711223344556677881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7711223344556677882}
+  - component: {fileID: 7711223344556677883}
+  m_Layer: 0
+  m_Name: CannonShoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7711223344556677882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7711223344556677881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758610959052682295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7711223344556677883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7711223344556677881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2071030ffe4d4af0ab6ae9b09ec6ba87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: 32aac09ba610b114c86bc942e5885f77, type: 3}
+  - {fileID: 8300000, guid: 3664c8ea91b71b54e857d7e75b681229, type: 3}
+  - {fileID: 8300000, guid: e29ff662165743abbbc6746fa3502415, type: 3}
+  pinchModifier: 0
+  volume: 0.35

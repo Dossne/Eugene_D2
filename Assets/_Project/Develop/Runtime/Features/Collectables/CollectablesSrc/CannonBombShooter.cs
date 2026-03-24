@@ -3,6 +3,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using Features.Character;
 using Features.LevelConfiguration;
+using Infrastructure.AudioControl;
 using Infrastructure.AssetManagement;
 using Infrastructure.Configs;
 using Infrastructure.SystemsLifeCycle;
@@ -145,6 +146,11 @@ namespace Features.Collectables
 
         private void FireBomb(Vector3 startPos, Vector3 targetPos)
         {
+            if (AudioService.I != null)
+            {
+                AudioService.I.PlaySfx(SfxType.CannonShoot, isRandom: true);
+            }
+
             CollectableItem bombInstance = instantiator.Instantiate(bombPrefab, parent: levelCreateManager.GetLevelRoot());
             float baseScale = collectablesConfig.Get(CollectableType.Bomb).defaultScaleOverride;
             float randomScale = Random.Range(MinBombScale, MaxBombScale);
