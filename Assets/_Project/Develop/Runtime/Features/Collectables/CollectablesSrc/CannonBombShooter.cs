@@ -87,11 +87,6 @@ namespace Features.Collectables
             if (!isInitialized || bombPrefab == null || cannons.Count == 0)
                 return;
 
-            Transform target = characterManager.GetMovementRoot();
-
-            if (target == null)
-                return;
-
             float now = Time.time;
 
             for (int i = 0; i < cannons.Count; i++)
@@ -108,10 +103,20 @@ namespace Features.Collectables
                     continue;
                 }
 
-                if (cannonData.startPoint == null || !cannonData.startPoint.gameObject.activeInHierarchy || now < cannonData.nextShotTime)
+                if (now < cannonData.nextShotTime)
                     continue;
 
-                FireBomb(cannonData.startPoint.position, target.position);
+                if (!TryGetShootStartPosition(cannonData, out Vector3 startPos))
+                {
+                    cannonData.isDisabled = true;
+                    cannons[i] = cannonData;
+                    continue;
+                }
+
+                if (!TryGetTargetPosition(out Vector3 targetPos))
+                    continue;
+
+                FireBomb(startPos, targetPos);
                 cannonData.nextShotTime = now + Random.Range(MinShotInterval, MaxShotInterval);
                 cannons[i] = cannonData;
             }
@@ -137,6 +142,7 @@ namespace Features.Collectables
                 {
                     cannon = item,
                     startPoint = targetStartPoint,
+                    localStartPoint = item.transform.InverseTransformPoint(targetStartPoint.position),
                     nextShotTime = 0f,
                     isDisabled = false
                 });
@@ -205,10 +211,45 @@ namespace Features.Collectables
         }
 
 
+        private bool TryGetShootStartPosition(CannonData cannonData, out Vector3 result)
+        {
+            result = default;
+
+            if (cannonData.cannon == null)
+                return false;
+
+            if (cannonData.startPoint != null && cannonData.startPoint.gameObject.activeInHierarchy)
+            {
+                result = cannonData.startPoint.position;
+                return true;
+            }
+
+            // Fallback to local offset in case Unity temporarily loses child linkage during runtime changes.
+            result = cannonData.cannon.transform.TransformPoint(cannonData.localStartPoint);
+            return true;
+        }
+
+
+        private bool TryGetTargetPosition(out Vector3 result)
+        {
+            result = characterManager.GetPosition();
+            Transform movementRoot = characterManager.GetMovementRoot();
+
+            if (movementRoot != null && movementRoot.gameObject.activeInHierarchy)
+            {
+                result = movementRoot.position;
+                return true;
+            }
+
+            return true;
+        }
+
+
         private struct CannonData
         {
             public CollectableItem cannon;
             public Transform startPoint;
+            public Vector3 localStartPoint;
             public float nextShotTime;
             public bool isDisabled;
         }
