@@ -137,6 +137,12 @@ namespace Features.Character
         }
 
 
+        public Transform GetMovementRoot()
+        {
+            return characterView.GetMovementRoot();
+        }
+
+
         private void SubscribeOnExperienceAddRequest()
         {
             experienceAddRequest.Subscribe(ExperienceAddRequestHandle).AddTo(disposable);

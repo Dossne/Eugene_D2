@@ -10,6 +10,7 @@ namespace Features.Character
 
         [Header("Components")]
         [SerializeField] private Transform viewRoot;
+        private Transform movementRoot;
         [SerializeField] private LayerChanger layerChanger;
         [SerializeField] private ItemCollectTrigger collectTrigger;
         [SerializeField] private ProgressSceneView progressView;
@@ -220,6 +221,17 @@ namespace Features.Character
         public Transform GetViewRoot()
         {
             return viewRoot;
+        }
+
+
+        public Transform GetMovementRoot()
+        {
+            if (movementRoot == null && viewRoot != null)
+            {
+                movementRoot = viewRoot.Find("MovementRoot");
+            }
+
+            return movementRoot != null ? movementRoot : viewRoot;
         }
 
 

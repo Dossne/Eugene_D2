@@ -66,6 +66,7 @@ namespace Infrastructure.Scope
         private readonly ShadowsService shadowsService;
         private readonly LevelUpManager levelUpManager;
         private readonly ItemCollectManager itemCollectManager;
+        private readonly CannonBombShooter cannonBombShooter;
         private readonly CollectableItemDeactivator collectableItemDeactivator;
         private readonly LevelTaskManager levelTaskManager;
         private readonly LevelFlyingTextManager flyingTextManager;
@@ -117,6 +118,7 @@ namespace Infrastructure.Scope
             ShadowsService shadowsService,
             LevelUpManager levelUpManager,
             ItemCollectManager itemCollectManager,
+            CannonBombShooter cannonBombShooter,
             CollectableItemDeactivator collectableItemDeactivator,
             LevelTaskManager levelTaskManager,
             LevelFlyingTextManager flyingTextManager,
@@ -167,6 +169,7 @@ namespace Infrastructure.Scope
             this.shadowsService = shadowsService;
             this.levelUpManager = levelUpManager;
             this.itemCollectManager = itemCollectManager;
+            this.cannonBombShooter = cannonBombShooter;
             this.levelTaskManager = levelTaskManager;
             this.flyingTextManager = flyingTextManager;
             this.levelCompleteManager = levelCompleteManager;
@@ -252,6 +255,7 @@ namespace Infrastructure.Scope
             cameraManager.Initialize();
             shadowsService.Initialize();
             itemCollectManager.Initialize();
+            await cannonBombShooter.InitializeAsync(startCts.Token);
             collectableItemDeactivator.Initialize();
             levelTaskManager.Initialize();
             extraCollectableUIService.Initialize();
@@ -299,6 +303,7 @@ namespace Infrastructure.Scope
             cameraManager.Deinitialize();
             shadowsService.Deinitialize();
             itemCollectManager.Deinitialize();
+            cannonBombShooter.Deinitialize();
             collectableItemDeactivator.Deinitialize();
             levelTaskManager.Deinitialize();
             extraCollectableUIService.Deinitialize();

@@ -44,6 +44,7 @@ namespace Infrastructure.Scope
             builder.Register<LevelUpManager>(Lifetime.Singleton).AsSelf().AsImplementedInterfaces();
             builder.Register<PopupOpedListener>(Lifetime.Singleton);
             builder.Register<ItemCollectManager>(Lifetime.Singleton);
+            builder.Register<CannonBombShooter>(Lifetime.Singleton).AsSelf().AsImplementedInterfaces();
             builder.Register<CollectableItemDeactivator>(Lifetime.Singleton).AsSelf().AsImplementedInterfaces();
             builder.Register<LevelTaskManager>(Lifetime.Singleton).AsSelf().AsImplementedInterfaces();
             builder.Register<LevelFlyingTextManager>(Lifetime.Singleton);
