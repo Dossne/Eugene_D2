@@ -94,7 +94,17 @@ namespace Features.Collectables
             {
                 CannonData cannonData = cannons[i];
 
-                if (cannonData.startPoint == null || now < cannonData.nextShotTime)
+                if (cannonData.isDisabled)
+                    continue;
+
+                if (cannonData.cannon == null || !cannonData.cannon.IsActive || cannonData.cannon.IsCollected)
+                {
+                    cannonData.isDisabled = true;
+                    cannons[i] = cannonData;
+                    continue;
+                }
+
+                if (cannonData.startPoint == null || !cannonData.startPoint.gameObject.activeInHierarchy || now < cannonData.nextShotTime)
                     continue;
 
                 FireBomb(cannonData.startPoint.position, target.position);
@@ -121,8 +131,10 @@ namespace Features.Collectables
 
                 cannons.Add(new CannonData
                 {
+                    cannon = item,
                     startPoint = targetStartPoint,
-                    nextShotTime = 0f
+                    nextShotTime = 0f,
+                    isDisabled = false
                 });
             }
         }
@@ -185,8 +197,10 @@ namespace Features.Collectables
 
         private struct CannonData
         {
+            public CollectableItem cannon;
             public Transform startPoint;
             public float nextShotTime;
+            public bool isDisabled;
         }
     }
 }
