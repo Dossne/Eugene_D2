@@ -15,8 +15,11 @@ namespace Features.Collectables
         private const string TargetStartPointName = "TargetStartPoint";
         private const float MinFirstShotDelay = 5f;
         private const float MaxFirstShotDelay = 10f;
-        private const float ShotInterval = 5f;
+        private const float MinShotInterval = 4f;
+        private const float MaxShotInterval = 8f;
         private const float ArcHeight = 1.5f;
+        private const float MinBombScale = 0.5f;
+        private const float MaxBombScale = 1.9f;
 
         private readonly Instantiator instantiator;
         private readonly AssetProvider assetProvider;
@@ -108,7 +111,7 @@ namespace Features.Collectables
                     continue;
 
                 FireBomb(cannonData.startPoint.position, target.position);
-                cannonData.nextShotTime = now + ShotInterval;
+                cannonData.nextShotTime = now + Random.Range(MinShotInterval, MaxShotInterval);
                 cannons[i] = cannonData;
             }
         }
@@ -143,8 +146,9 @@ namespace Features.Collectables
         private void FireBomb(Vector3 startPos, Vector3 targetPos)
         {
             CollectableItem bombInstance = instantiator.Instantiate(bombPrefab, parent: levelCreateManager.GetLevelRoot());
-            float scale = collectablesConfig.Get(CollectableType.Bomb).defaultScaleOverride;
-            Vector3 scaleVector = Vector3.one * scale;
+            float baseScale = collectablesConfig.Get(CollectableType.Bomb).defaultScaleOverride;
+            float randomScale = Random.Range(MinBombScale, MaxBombScale);
+            Vector3 scaleVector = Vector3.one * (baseScale * randomScale);
             Vector3 velocity = CalculateBallisticVelocity(startPos, targetPos, ArcHeight);
 
             bombInstance.Construct(CollectableType.Bomb, startPos, Quaternion.identity, scaleVector);
