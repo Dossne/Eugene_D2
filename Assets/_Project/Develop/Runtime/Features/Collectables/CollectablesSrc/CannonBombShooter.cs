@@ -8,6 +8,7 @@ using Infrastructure.AssetManagement;
 using Infrastructure.Configs;
 using Infrastructure.SystemsLifeCycle;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Features.Collectables
 {
@@ -16,11 +17,14 @@ namespace Features.Collectables
         private const string TargetStartPointName = "TargetStartPoint";
         private const float MinFirstShotDelay = 5f;
         private const float MaxFirstShotDelay = 10f;
-        private const float MinShotInterval = 5f;
+        private const float MinShotInterval = 4f;
         private const float MaxShotInterval = 8f;
         private const float ArcHeight = 1.5f;
         private const float MinBombScale = 0.5f;
         private const float MaxBombScale = 1.8f;
+        private const float ShotFxScaleMultiplier = 0.33333334f;
+        private const string SmokePoofResourcePath = "CannonFx/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof";
+        private const string SmokePoofDenseResourcePath = "CannonFx/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof (Dense)";
 
         private readonly Instantiator instantiator;
         private readonly AssetProvider assetProvider;
@@ -28,6 +32,7 @@ namespace Features.Collectables
         private readonly CharacterManager characterManager;
         private readonly CollectablesConfig collectablesConfig;
         private readonly List<CannonData> cannons = new();
+        private readonly List<GameObject> shotFxPrefabs = new();
 
         private CollectableItem bombPrefab;
         private bool isInitialized;
@@ -53,6 +58,7 @@ namespace Features.Collectables
                 return;
 
             BuildCannonList();
+            CacheShotFxPrefabs();
 
             if (cannons.Count > 0)
             {
@@ -77,6 +83,7 @@ namespace Features.Collectables
         public void Deinitialize()
         {
             cannons.Clear();
+            shotFxPrefabs.Clear();
             bombPrefab = null;
             isInitialized = false;
         }
@@ -152,12 +159,14 @@ namespace Features.Collectables
 
         private void FireBomb(Vector3 startPos, Vector3 targetPos)
         {
+            SpawnShotFx(startPos);
+
             if (AudioService.I != null)
             {
                 AudioService.I.PlaySfx(SfxType.CannonShoot, isRandom: true);
             }
 
-            CollectableItem bombInstance = instantiator.Instantiate(bombPrefab, parent: levelCreateManager.GetLevelRoot());
+            CollectableItem bombInstance = instantiator.Instantiate(bombPrefab, startPos, parent: levelCreateManager.GetLevelRoot());
             float baseScale = collectablesConfig.Get(CollectableType.Bomb).defaultScaleOverride;
             float randomScale = Random.Range(MinBombScale, MaxBombScale);
             Vector3 scaleVector = Vector3.one * (baseScale * randomScale);
@@ -167,6 +176,64 @@ namespace Features.Collectables
             bombInstance.SetItemGroup(ItemGroup.Damage);
             bombInstance.PhysicsWakeUp();
             bombInstance.SetVelocity(velocity);
+        }
+
+
+        private void CacheShotFxPrefabs()
+        {
+            shotFxPrefabs.Clear();
+            TryAddShotFxPrefab(SmokePoofResourcePath);
+            TryAddShotFxPrefab(SmokePoofDenseResourcePath);
+        }
+
+
+        private void TryAddShotFxPrefab(string resourcePath)
+        {
+            GameObject prefab = Resources.Load<GameObject>(resourcePath);
+
+            if (prefab != null)
+            {
+                shotFxPrefabs.Add(prefab);
+            }
+            else
+            {
+                Debug.LogWarning($"[CannonBombShooter] Shot FX not found in Resources at '{resourcePath}'");
+            }
+        }
+
+
+        private void SpawnShotFx(Vector3 position)
+        {
+            if (shotFxPrefabs.Count == 0)
+                return;
+
+            GameObject fxPrefab = shotFxPrefabs[Random.Range(0, shotFxPrefabs.Count)];
+            Transform parent = levelCreateManager.GetLevelRoot();
+            GameObject fxInstance = Object.Instantiate(fxPrefab, position, Quaternion.identity, parent);
+            fxInstance.transform.localScale *= ShotFxScaleMultiplier;
+            float lifetime = GetFxLifetime(fxInstance);
+            Object.Destroy(fxInstance, lifetime + 0.25f);
+        }
+
+
+        private static float GetFxLifetime(GameObject fxInstance)
+        {
+            ParticleSystem[] systems = fxInstance.GetComponentsInChildren<ParticleSystem>(true);
+            float maxLifetime = 0.5f;
+
+            for (int i = 0; i < systems.Length; i++)
+            {
+                ParticleSystem ps = systems[i];
+                var main = ps.main;
+                float duration = main.duration;
+                float startLifetime = main.startLifetime.constantMax;
+                float totalLifetime = duration + startLifetime;
+
+                if (totalLifetime > maxLifetime)
+                    maxLifetime = totalLifetime;
+            }
+
+            return maxLifetime;
         }
 
 
