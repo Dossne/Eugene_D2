@@ -248,6 +248,7 @@
         LollipopGreenSmile = 242,
         LollipopOrangeSmile = 243,
         LollipopPinkSmile = 244,
+        Cannon = 245,
 
         //boosters 10001-10500
         BonusClock = 10001,
@@ -260,3 +261,4 @@
         SpecialCarnivalMask = 10504,
     }
 }
+
