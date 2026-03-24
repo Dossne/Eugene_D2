@@ -15,11 +15,11 @@ namespace Features.Collectables
         private const string TargetStartPointName = "TargetStartPoint";
         private const float MinFirstShotDelay = 5f;
         private const float MaxFirstShotDelay = 10f;
-        private const float MinShotInterval = 4f;
+        private const float MinShotInterval = 5f;
         private const float MaxShotInterval = 8f;
         private const float ArcHeight = 1.5f;
         private const float MinBombScale = 0.5f;
-        private const float MaxBombScale = 1.9f;
+        private const float MaxBombScale = 1.8f;
 
         private readonly Instantiator instantiator;
         private readonly AssetProvider assetProvider;
