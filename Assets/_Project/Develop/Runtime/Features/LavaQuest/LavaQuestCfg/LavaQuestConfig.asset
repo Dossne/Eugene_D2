@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beab49f1da24c2da3d031242b11f31b, type: 3}
+  m_Name: LavaQuestConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.15.0
+  isRemote: 1
+  configData:
+    feature:
+    - isFeatureEnabled: 1
+      showWidgetLevel: 3
+      unlockLevel: 26
+      durationSec: 86400
+      looseCdSec: 1800
+    icons:
+    - enemy: 0
+      name: player_icon
+      back: player_frame_yellow
+    - enemy: 1
+      name: icon_avatar_avocado
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_broccoli
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_burger
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_chilli
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_corn
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_croissant
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_egg
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_mango
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_onigiri
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_pot
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_raspberry
+      back: player_frame_grey
+    - enemy: 1
+      name: icon_avatar_tomato
+      back: player_frame_grey
+    chain:
+    - id: 2
+    rewards:
+    - id: 1
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+      billboardRewardIcon: coin_icon
+    - id: 2
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+      billboardRewardIcon: coin_icon
+    - id: 3
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+      billboardRewardIcon: coin_icon
+    steps:
+    - id: 1
+      stepIdx: 0
+      minPlayers: 100
+      maxPlayers: 100
+      iconCountTotal: 15
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 1
+      minPlayers: 70
+      maxPlayers: 90
+      iconCountTotal: 14
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 2
+      minPlayers: 50
+      maxPlayers: 80
+      iconCountTotal: 13
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 3
+      minPlayers: 40
+      maxPlayers: 60
+      iconCountTotal: 12
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 4
+      minPlayers: 30
+      maxPlayers: 50
+      iconCountTotal: 11
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 5
+      minPlayers: 20
+      maxPlayers: 40
+      iconCountTotal: 10
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 6
+      minPlayers: 10
+      maxPlayers: 30
+      iconCountTotal: 7
+      iconCountFall: 3
+    - id: 1
+      stepIdx: 7
+      minPlayers: 3
+      maxPlayers: 13
+      iconCountTotal: 4
+      iconCountFall: 0
+    - id: 2
+      stepIdx: 0
+      minPlayers: 100
+      maxPlayers: 100
+      iconCountTotal: 15
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 1
+      minPlayers: 80
+      maxPlayers: 89
+      iconCountTotal: 15
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 2
+      minPlayers: 70
+      maxPlayers: 79
+      iconCountTotal: 14
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 3
+      minPlayers: 60
+      maxPlayers: 69
+      iconCountTotal: 14
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 4
+      minPlayers: 50
+      maxPlayers: 59
+      iconCountTotal: 13
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 5
+      minPlayers: 41
+      maxPlayers: 49
+      iconCountTotal: 13
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 6
+      minPlayers: 33
+      maxPlayers: 40
+      iconCountTotal: 12
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 7
+      minPlayers: 26
+      maxPlayers: 32
+      iconCountTotal: 11
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 8
+      minPlayers: 19
+      maxPlayers: 25
+      iconCountTotal: 10
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 9
+      minPlayers: 14
+      maxPlayers: 18
+      iconCountTotal: 7
+      iconCountFall: 3
+    - id: 2
+      stepIdx: 10
+      minPlayers: 3
+      maxPlayers: 13
+      iconCountTotal: 4
+      iconCountFall: 0
+    - id: 3
+      stepIdx: 0
+      minPlayers: 100
+      maxPlayers: 100
+      iconCountTotal: 15
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 1
+      minPlayers: 80
+      maxPlayers: 90
+      iconCountTotal: 15
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 2
+      minPlayers: 70
+      maxPlayers: 85
+      iconCountTotal: 15
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 3
+      minPlayers: 60
+      maxPlayers: 80
+      iconCountTotal: 14
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 4
+      minPlayers: 55
+      maxPlayers: 75
+      iconCountTotal: 14
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 5
+      minPlayers: 50
+      maxPlayers: 70
+      iconCountTotal: 14
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 6
+      minPlayers: 45
+      maxPlayers: 65
+      iconCountTotal: 13
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 7
+      minPlayers: 40
+      maxPlayers: 60
+      iconCountTotal: 13
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 8
+      minPlayers: 35
+      maxPlayers: 55
+      iconCountTotal: 13
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 9
+      minPlayers: 30
+      maxPlayers: 50
+      iconCountTotal: 12
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 10
+      minPlayers: 25
+      maxPlayers: 45
+      iconCountTotal: 12
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 11
+      minPlayers: 20
+      maxPlayers: 40
+      iconCountTotal: 11
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 12
+      minPlayers: 15
+      maxPlayers: 30
+      iconCountTotal: 11
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 13
+      minPlayers: 12
+      maxPlayers: 25
+      iconCountTotal: 10
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 14
+      minPlayers: 8
+      maxPlayers: 18
+      iconCountTotal: 6
+      iconCountFall: 3
+    - id: 3
+      stepIdx: 15
+      minPlayers: 3
+      maxPlayers: 13
+      iconCountTotal: 4
+      iconCountFall: 0

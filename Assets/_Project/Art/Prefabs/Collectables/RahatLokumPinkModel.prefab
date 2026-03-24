@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2660670326910433791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7826058479204651919}
+  m_Layer: 0
+  m_Name: RahatLokumPinkModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7826058479204651919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2660670326910433791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2468934024532301402}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2722939547282502065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7826058479204651919}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7462878317558063214, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2eae391872c38b64b9e142aacb17062b, type: 2}
+    - target: {fileID: -5211208719930990250, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95be7d27f21bf8d43a151d552367ae64, type: 2}
+    - target: {fileID: -2818358490311987272, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2eae391872c38b64b9e142aacb17062b, type: 2}
+    - target: {fileID: -2503488071632155773, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95be7d27f21bf8d43a151d552367ae64, type: 2}
+    - target: {fileID: -195883665956066290, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be87f0acc0dbbac4da5b000551a84aab, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Name
+      value: rahat_lokum_pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 4278200481962586376, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2eae391872c38b64b9e142aacb17062b, type: 2}
+    - target: {fileID: 8204267519286873217, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2eae391872c38b64b9e142aacb17062b, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2da3f53669e69204a853f34dff54da8e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1682785812605976477}
+  m_SourcePrefab: {fileID: 100100000, guid: 2da3f53669e69204a853f34dff54da8e, type: 3}
+--- !u!4 &2468934024532301402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2da3f53669e69204a853f34dff54da8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722939547282502065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2956818517228244192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2da3f53669e69204a853f34dff54da8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2722939547282502065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1682785812605976477
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2956818517228244192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.102254026
+  m_Height: 0.26842198
+  m_Direction: 0
+  m_Center: {x: 0.0012030985, y: 0.08917202, z: 0.0009022866}

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faed4b48c5c0455994ac65f9c438fb3d, type: 3}
+  m_Name: WinStreakConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.6.0
+  isRemote: 1
+  configData:
+    winStreakFeatureData:
+    - isFeatureEnabled: 1
+      unlockLevel: 16
+      isMultiplierEnabled: 1
+      rewardMultiplier: 2
+    winStreakData:
+    - lvl: 0
+      iconName: icon_hat_var1_closed
+    - lvl: 1
+      iconName: icon_hat_var1_opened
+    - lvl: 2
+      iconName: icon_hat_var2_opened
+    - lvl: 3
+      iconName: icon_hat_var3_opened
+    - lvl: 4
+      iconName: icon_hat_var4_opened
+    - lvl: 5
+      iconName: icon_hat_var5_opened
+    boosterByLevelData:
+    - lvl: 1
+      boosterType: 6
+      itemCount: 0
+    - lvl: 1
+      boosterType: 7
+      itemCount: 1
+    - lvl: 2
+      boosterType: 6
+      itemCount: 1
+    - lvl: 2
+      boosterType: 7
+      itemCount: 1
+    - lvl: 3
+      boosterType: 6
+      itemCount: 1
+    - lvl: 3
+      boosterType: 7
+      itemCount: 2
+    - lvl: 4
+      boosterType: 6
+      itemCount: 2
+    - lvl: 4
+      boosterType: 7
+      itemCount: 2
+    - lvl: 5
+      boosterType: 6
+      itemCount: 3
+    - lvl: 5
+      boosterType: 7
+      itemCount: 3
+  spawnParams:
+    startXPosNorm: -0.2
+    endXPosNorm: 1.2
+    yPosNorm: 0.225
+    depthFromCamera: 2.2
+    minX: -1.5
+    maxX: 1.5
+    minY: 0.1
+    maxY: 0.1
+    minZ: 0.5
+    maxZ: 1.5

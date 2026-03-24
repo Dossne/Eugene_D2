@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Tooltips
+  m_EditorClassIdentifier: 
+  m_GroupName: Tooltips
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2c7cbc477315361408db60e28c607a10
+  m_SerializeEntries:
+  - m_GUID: 11c1980d32b50d04fadb37307a607778
+    m_Address: MoveTutorialTooltip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d7f18df8f7926c47b4c7d62e6a7a0ae
+    m_Address: SimpleTutorialTooltip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be9cd498871bb34abd3af53a40e585b
+    m_Address: FinishLevelTutorialTooltip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 508a1ca26d371814b9d62b7b4168d32a
+    m_Address: EatTutorialTooltip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71f78c564cf35b441a70c27ccacb6706
+    m_Address: SuperSpeedTutorialTooltip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 858086e502efb8f4d9edbbdb540a1971, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f7c5f8596a1f1ee42b341b4929e03b61, type: 2}
+    - {fileID: 11400000, guid: 26a4cc234950716429a5708c976fa324, type: 2}

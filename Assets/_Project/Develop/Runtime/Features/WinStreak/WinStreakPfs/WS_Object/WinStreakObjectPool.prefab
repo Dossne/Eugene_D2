@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4456191314353733648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4742287712876769259}
+  - component: {fileID: 1584690467341344250}
+  m_Layer: 0
+  m_Name: WinStreakObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4742287712876769259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456191314353733648}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1584690467341344250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456191314353733648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07962907fd4a44cfa5dc00128a06359e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    poolTag: 
+    itemInject: 0
+    preWarmCount: 0
+    maxPoolSize: 1
+    logOnMaxReach: 3
+    createNewOnMaxReach: 0
+    resetParentOnRelease: 0
+    itemWorldSpace: 1
+    instantiateAsync: 1
+  items:
+  - poolItemKey: 1
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 13140a43f7e1811449fab4181af2f2df
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+  - poolItemKey: 2
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 6c33f6aed6eea714984fda9ce0717d99
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+  - poolItemKey: 3
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 0c37e6036b7229247820aa51dc40a490
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+  - poolItemKey: 4
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 977c6bb168af2b04881a8d14f90d13b2
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+  - poolItemKey: 5
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: ba21f8b749b769a439cc2c0f29353b97
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+  subPools:
+    _serializedList: []

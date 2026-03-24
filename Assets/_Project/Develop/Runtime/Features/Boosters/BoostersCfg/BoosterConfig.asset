@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71701ea56b034f148341c71c6ed8a68f, type: 3}
+  m_Name: BoosterConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.11.0
+  isRemote: 1
+  configData:
+    common:
+    - preBoosterAnimDelaySec: 0.3
+      preBoosterAnimSec: 0.75
+    preBoosters:
+    - type: 2
+      startCount: 2
+      iconName: bottle_booster_shop_icon
+      shopIconName: bottle_booster_shop_icon
+      infiniteIconName: bottle_booster_shop_icon
+      boostedValue: 30
+      unlockLevel: 12
+      isFreeOnUnlockLevel: 1
+      nameKey: boost_bottle_name
+      descriptionKey: boost_bottle_desc
+      descriptionTutorialKey: boost_bottle_desc_tutor
+      buyCount: 3
+      buyPrice: 1800
+      durationSec: 0
+    - type: 1
+      startCount: 2
+      iconName: clock_booster_shop_icon
+      shopIconName: clock_booster_shop_icon
+      infiniteIconName: clock_booster_shop_icon
+      boostedValue: 30
+      unlockLevel: 14
+      isFreeOnUnlockLevel: 1
+      nameKey: bonus_clock_name
+      descriptionKey: bonus_clock_desc
+      descriptionTutorialKey: bonus_clock_desc_tutor
+      buyCount: 3
+      buyPrice: 1800
+      durationSec: 0
+    inGameBoosters:
+    - type: 4
+      startCount: 2
+      iconName: size_booster_shop_icon
+      shopIconName: size_booster_shop_icon
+      infiniteIconName: size_booster_shop_icon
+      boostedValue: 2
+      unlockLevel: 4
+      isFreeOnUnlockLevel: 1
+      nameKey: size_booster_name
+      descriptionKey: size_booster_desc
+      descriptionTutorialKey: size_booster_desc_tutor
+      buyCount: 3
+      buyPrice: 1800
+      durationSec: 10
+    - type: 5
+      startCount: 2
+      iconName: glass_booster_shop_icon
+      shopIconName: glass_booster_shop_icon
+      infiniteIconName: glass_booster_shop_icon
+      boostedValue: 10
+      unlockLevel: 6
+      isFreeOnUnlockLevel: 1
+      nameKey: object_finder_name
+      descriptionKey: object_finder_desc
+      descriptionTutorialKey: object_finder_desc_tutor
+      buyCount: 3
+      buyPrice: 2000
+      durationSec: 15
+    - type: 3
+      startCount: 2
+      iconName: freeze_booster_shop_icon
+      shopIconName: freeze_booster_shop_icon
+      infiniteIconName: freeze_booster_shop_icon
+      boostedValue: 0
+      unlockLevel: 8
+      isFreeOnUnlockLevel: 1
+      nameKey: freeze_booster_name
+      descriptionKey: freeze_booster_desc
+      descriptionTutorialKey: freeze_booster_desc_tutor
+      buyCount: 3
+      buyPrice: 2000
+      durationSec: 10
+    - type: 8
+      startCount: 2
+      iconName: super_magnet_icon
+      shopIconName: super_magnet_icon
+      infiniteIconName: super_magnet_icon
+      boostedValue: 0
+      unlockLevel: 10
+      isFreeOnUnlockLevel: 1
+      nameKey: magnet_booster_name
+      descriptionKey: magnet_booster_desc
+      descriptionTutorialKey: magnet_booster_desc_tutor
+      buyCount: 3
+      buyPrice: 1800
+      durationSec: 10
+    winStreakBoosters:
+    - type: 6
+      collectableType: 10001
+      boostedValue: 10
+    - type: 7
+      collectableType: 10002
+      boostedValue: 10

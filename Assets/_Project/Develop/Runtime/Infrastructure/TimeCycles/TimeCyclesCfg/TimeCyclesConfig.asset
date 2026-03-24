@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62db1d13de4f48a29e97319c79810cd0, type: 3}
+  m_Name: TimeCyclesConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.9.0
+  isRemote: 1
+  configData:
+    datas:
+    - cycleType: 0
+      targetHour: 8
+      targetMinute: 0
+      targetDayOfWeek: 0
+    - cycleType: 1
+      targetHour: 8
+      targetMinute: 0
+      targetDayOfWeek: 3
+    - cycleType: 100
+      targetHour: 8
+      targetMinute: 0
+      targetDayOfWeek: 6
+    - cycleType: 101
+      targetHour: 8
+      targetMinute: 0
+      targetDayOfWeek: 1
+    - cycleType: 2
+      targetHour: 8
+      targetMinute: 0
+      targetDayOfWeek: 0

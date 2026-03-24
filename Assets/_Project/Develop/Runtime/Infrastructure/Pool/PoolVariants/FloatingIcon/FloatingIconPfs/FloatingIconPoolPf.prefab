@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7937279071048443109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 863637279015312093}
+  - component: {fileID: 6272342896490912681}
+  m_Layer: 0
+  m_Name: FloatingIconPoolPf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &863637279015312093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937279071048443109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6272342896490912681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937279071048443109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c79140b7614190a5eff6d9a0d4ed88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolTag: 
+  settings:
+    itemInject: 0
+    preWarmCount: 0
+    maxPoolSize: 30
+    logOnMaxReach: 0
+    createNewOnMaxReach: 0
+    resetParentOnRelease: 0
+    itemWorldSpace: 0
+    instantiateActiveGo: 1
+    instantiateAsync: 1
+  items:
+  - poolItemKey: 2
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 9bc41c0bcc770124d98e0e8459655787
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  - poolItemKey: 1
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 1f9b04261c594a6408bf0c01b691dccc
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 1
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 30
+      maxPoolSize: 30
+      logOnMaxReach: 0
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 0
+      instantiateActiveGo: 1
+      instantiateAsync: 0
+  - poolItemKey: 3
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 4c1624610ef559e4dbc72597265993db
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  - poolItemKey: 4
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 0bea06c7d17cdae4088b2c78d9d7d798
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  - poolItemKey: 5
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: a4c672aa25e3eff47b07ede84f82130e
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  subPools:
+    _serializedList: []

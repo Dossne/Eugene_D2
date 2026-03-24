@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config>
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- For Facebook -->
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <!-- For Amazon -->
+        <domain includeSubdomains="true">amazon-adsystem.com</domain>
+        <!-- For SayPromo -->
+        <domain includeSubdomains="true">spn.gcdn.co</domain>
+        <domain includeSubdomains="true">n.sgdn.io</domain>
+    </domain-config>
+</network-security-config>

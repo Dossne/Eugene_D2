@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6025708645065519269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5422918015013332823}
+  - component: {fileID: 5021508303911198586}
+  m_Layer: 0
+  m_Name: ScoringIconPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5422918015013332823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025708645065519269}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5021508303911198586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025708645065519269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d1f949b53c4500b336880b98f49382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolTag: 
+  settings:
+    itemInject: 0
+    preWarmCount: 0
+    maxPoolSize: 50
+    logOnMaxReach: 0
+    createNewOnMaxReach: 0
+    resetParentOnRelease: 0
+    itemWorldSpace: 0
+    instantiateActiveGo: 0
+    instantiateAsync: 0
+  items:
+  - poolItemKey: 1
+    assetSourceData:
+      assetSourceType: 4
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 4899872466087974366, guid: afb2678b0f8467b4cb262cf1648968f1,
+        type: 3}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 0
+      logOnMaxReach: 0
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 0
+      instantiateActiveGo: 0
+      instantiateAsync: 0
+  subPools:
+    _serializedList: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48dfc3d13ecc86b4c949e4d30ded7446, type: 3}
+  m_Name: FreePaidOfferSkinConfiguration
+  m_EditorClassIdentifier: 
+  freePaidOfferSkinData:
+    _serializedList:
+    - Key: 1
+      Value:
+        widgetRef:
+          m_AssetGUID: 3eed5ae5e6a47ab4b8f7a93f9f2bad58
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_EditorAssetChanged: 0
+        popupHeaderSpriteId: art_01
+        popupHeaderLocKey: free_paid_offer_popup_header_SkinType_1
+        offerSlotRef:
+          m_AssetGUID: 490bf76be2a690341b96d7dcd0c8a48e
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_EditorAssetChanged: 0
+    - Key: 2
+      Value:
+        widgetRef:
+          m_AssetGUID: e7ce0cbc8ef455c428b32751399752c3
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_EditorAssetChanged: 0
+        popupHeaderSpriteId: art_02
+        popupHeaderLocKey: free_paid_offer_popup_header_SkinType_2
+        offerSlotRef:
+          m_AssetGUID: 428b974758a734f4d8982948cead67cf
+          m_SubObjectName: 
+          m_SubObjectType: 
+          m_EditorAssetChanged: 0

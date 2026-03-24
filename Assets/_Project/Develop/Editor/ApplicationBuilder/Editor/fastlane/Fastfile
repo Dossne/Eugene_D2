@@ -1,0 +1,45 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+
+default_platform(:android)
+
+platform :android do
+  desc "Upload build to GP internat testing"
+  lane :internal do
+    upload_to_play_store(track: 'internal', apk: 'last.aab')
+  end
+end
+
+platform :ios do
+
+  desc "Upload build to Test Flight"
+  lane :test_flight do |options|
+
+    set_appstore_api_key
+
+    upload_to_testflight(ipa: options[:ipa])
+  end
+end
+
+lane :set_appstore_api_key do
+  app_store_connect_api_key(
+    key_id: "88S438QVJ4",
+    issuer_id: "292ba754-97d9-452e-9ff1-82c505c568d5",
+    key_filepath: "~/AuthKey_88S438QVJ4.p8",
+    duration: 1200, # optional (maximum 1200)
+    in_house: false, # optional but may be required if using match/sigh
+  )
+end

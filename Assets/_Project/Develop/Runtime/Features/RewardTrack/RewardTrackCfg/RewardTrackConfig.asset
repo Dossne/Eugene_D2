@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5ca377e7fe42a6b0c6bc37dc856092, type: 3}
+  m_Name: RewardTrackConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.7.0
+  isRemote: 1
+  configData:
+    feature:
+    - isEnabled: 1
+      unlockLevel: 19
+      spawnCount: 5
+      spawnYPos: 2
+      minScale: 1.1
+      maxScale: 1.9
+    trackData:
+    - id: 1
+      startDay: 1
+      endDay: 4
+    - id: 2
+      startDay: 5
+      endDay: 0
+    targets:
+    - item: 10502
+      themeImageName: rt_theme_lamp
+    - item: 10503
+      themeImageName: rt_theme_egg
+    - item: 10501
+      themeImageName: rt_theme_shell
+    rewards:
+    - id: 1
+      stepNumber: 1
+      collectCount: 1
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 1
+      stepNumber: 2
+      collectCount: 3
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":100,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 3
+      collectCount: 5
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 4
+      collectCount: 10
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 1
+      stepNumber: 5
+      collectCount: 5
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 6
+      collectCount: 7
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":100,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 7
+      collectCount: 9
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 8
+      collectCount: 30
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 9
+      collectCount: 6
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 10
+      collectCount: 8
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":150,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 11
+      collectCount: 10
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 12
+      collectCount: 60
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 13
+      collectCount: 12
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 14
+      collectCount: 14
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":200,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 15
+      collectCount: 16
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 16
+      collectCount: 100
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 1
+      stepNumber: 17
+      collectCount: 15
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 18
+      collectCount: 20
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":250,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 19
+      collectCount: 25
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 20
+      collectCount: 180
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 21
+      collectCount: 25
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 22
+      collectCount: 35
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":300,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 23
+      collectCount: 45
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 24
+      collectCount: 220
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 25
+      collectCount: 45
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 26
+      collectCount: 60
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":350,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 27
+      collectCount: 75
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 28
+      collectCount: 450
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":1000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 29
+      collectCount: 60
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 1
+      stepNumber: 30
+      collectCount: 75
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 31
+      collectCount: 90
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":400,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 32
+      collectCount: 750
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 33
+      collectCount: 90
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 34
+      collectCount: 120
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":500,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 1
+      stepNumber: 35
+      collectCount: 150
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 36
+      collectCount: 1200
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false}]}'
+    - id: 1
+      stepNumber: 37
+      collectCount: 160
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 38
+      collectCount: 240
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":60,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 1
+      stepNumber: 39
+      collectCount: 320
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 1
+      stepNumber: 40
+      collectCount: 2000
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 1
+      collectCount: 1
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 2
+      stepNumber: 2
+      collectCount: 3
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":100,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 3
+      collectCount: 6
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 4
+      collectCount: 30
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 2
+      stepNumber: 5
+      collectCount: 10
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 6
+      collectCount: 13
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":100,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 7
+      collectCount: 16
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 8
+      collectCount: 100
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 9
+      collectCount: 20
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 10
+      collectCount: 28
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":150,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 11
+      collectCount: 44
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 12
+      collectCount: 250
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 13
+      collectCount: 32
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 14
+      collectCount: 40
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":200,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 15
+      collectCount: 48
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 16
+      collectCount: 300
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 2
+      stepNumber: 17
+      collectCount: 40
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 18
+      collectCount: 50
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":250,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 19
+      collectCount: 60
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 20
+      collectCount: 400
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 21
+      collectCount: 70
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 22
+      collectCount: 80
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":300,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 23
+      collectCount: 90
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 24
+      collectCount: 450
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 25
+      collectCount: 100
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 26
+      collectCount: 120
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":350,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 27
+      collectCount: 140
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 28
+      collectCount: 700
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":1000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 29
+      collectCount: 140
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 2
+      stepNumber: 30
+      collectCount: 150
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 31
+      collectCount: 160
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":400,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 32
+      collectCount: 900
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 33
+      collectCount: 120
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 34
+      collectCount: 160
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":500,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'
+    - id: 2
+      stepNumber: 35
+      collectCount: 200
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 36
+      collectCount: 1200
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false}]}'
+    - id: 2
+      stepNumber: 37
+      collectCount: 200
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 38
+      collectCount: 250
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":60,"isDisplayTimeText":true,"isDisplayRibbon":true}}'
+    - id: 2
+      stepNumber: 39
+      collectCount: 300
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":true,"isDisplayInfinityIcon":false}]}'
+    - id: 2
+      stepNumber: 40
+      collectCount: 2000
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"icon_coin_reward_track","isDisplayRibbon":true}]}'

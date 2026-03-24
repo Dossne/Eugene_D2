@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b944cc0c7976d743bcb0e1c67549473, type: 3}
+  m_Name: FreePaidOfferConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.10.0
+  isRemote: 1
+  configData:
+    feature:
+    - isFeatureEnabled: 1
+      unlockLevel: 13
+      durationSec: 604800
+    presets:
+    - presetId: 1
+      cumulativeSpentMin: 0
+    - presetId: 2
+      cumulativeSpentMin: 30
+    - presetId: 3
+      cumulativeSpentMin: 100
+    - presetId: 4
+      cumulativeSpentMin: 200
+    rewards:
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":150,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 301
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":200,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":2,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 302
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":4000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":1,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 303
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":2,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BoostBottle","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":2,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":2,"isDisplayRibbon":false,"dispAm":true}],"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 1
+      InAppOfferId: 304
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":3,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":1500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":3,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BoostBottle","amount":3,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 305
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":3,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":120,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":3,"isDisplayRibbon":false,"dispAm":true}],"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":60,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 306
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":8000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":5,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":8000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":5,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 307
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":10,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 308
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":35000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}],"infiniteLifeReward":{"timeLengthMinutes":720,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":30000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":25000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 1
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":12,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":150,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 303
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":2,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BoostBottle","amount":2,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":2,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":2,"isDisplayRibbon":false,"dispAm":true}],"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":15,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 2
+      InAppOfferId: 304
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":3,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":1500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":3,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BoostBottle","amount":3,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"ObjectFinder","amount":3,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 305
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":3,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":120,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":3,"isDisplayRibbon":false,"dispAm":true}],"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":60,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 306
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":8000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":5,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":8000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":5,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 307
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":10,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 308
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":35000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}],"infiniteLifeReward":{"timeLengthMinutes":720,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":30000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":25000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 2
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":12,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":150,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 305
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":3,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":120,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":3,"isDisplayRibbon":false,"dispAm":true}],"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":60,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"infiniteLifeReward":{"timeLengthMinutes":30,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 306
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":8000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":5,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":8000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":5,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"TimeFreeze","amount":5,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 307
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":10,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 308
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":35000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}],"infiniteLifeReward":{"timeLengthMinutes":720,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":30000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":25000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 3
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":12,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":150,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BonusClock","amount":1,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 307
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":10,"isDisplayRibbon":false,"dispAm":true}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BonusClock","amount":10,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"BoostBottle","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SuperMagnet","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"boosterRewards":[{"boosterType":"SizeBooster","amount":10,"isDisplayRibbon":false,"dispAm":true}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 4
+      InAppOfferId: 308
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":35000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}],"infiniteLifeReward":{"timeLengthMinutes":720,"isDisplayTimeText":true,"isDisplayRibbon":false}}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":30000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"infinitePreBoosterRewards":[{"boosterType":"BonusClock","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":25000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":15000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true}],"infinitePreBoosterRewards":[{"boosterType":"BoostBottle","timeLengthMinutes":1440,"isDisplayTimeText":true,"isDisplayRibbon":false,"isDisplayInfinityIcon":false}]}'
+    - presetId: 4
+      InAppOfferId: 0
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2000,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":false}],"boosterRewards":[{"boosterType":"SizeBooster","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"ObjectFinder","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"TimeFreeze","amount":12,"isDisplayRibbon":false,"dispAm":true},{"boosterType":"SuperMagnet","amount":12,"isDisplayRibbon":false,"dispAm":true}]}'

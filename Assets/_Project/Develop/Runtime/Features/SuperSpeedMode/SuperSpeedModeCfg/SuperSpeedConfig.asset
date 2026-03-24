@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee4b11e81dd6d145b8fbf8b781947c0, type: 3}
+  m_Name: SuperSpeedConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.14.0
+  isRemote: 1
+  configData:
+    superSpeedData:
+    - isFeatureEnabled: 1
+      announceLevel: 11
+      unlockLevel: 65
+      maxWinCount: 10

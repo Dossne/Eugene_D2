@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba697df26a4378541bc3141a49be5041, type: 3}
+  m_Name: TutorialConfiguration
+  m_EditorClassIdentifier: 
+  fileName: vort_1.15.0
+  isRemote: 1
+  configData:
+    groupData:
+    - tutorialGroup: 0
+      enabled: 0
+    - tutorialGroup: 1
+      enabled: 0
+    - tutorialGroup: 2
+      enabled: 0
+    - tutorialGroup: 3
+      enabled: 1
+    - tutorialGroup: 4
+      enabled: 1
+    - tutorialGroup: 5
+      enabled: 1
+    - tutorialGroup: 6
+      enabled: 1
+    - tutorialGroup: 7
+      enabled: 1
+    - tutorialGroup: 8
+      enabled: 1
+    - tutorialGroup: 9
+      enabled: 0
+    - tutorialGroup: 10
+      enabled: 1
+    - tutorialGroup: 11
+      enabled: 1
+    inGameBoosterUseData:
+    - boosterType: 4
+      tooltipOrientation: 3
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: 20
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 60
+      pointerOffsetY: 470
+    - boosterType: 5
+      tooltipOrientation: 3
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: 20
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 60
+      pointerOffsetY: 470
+    - boosterType: 3
+      tooltipOrientation: 2
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: -20
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 60
+      pointerOffsetY: 470
+    - boosterType: 8
+      tooltipOrientation: 2
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: -20
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 60
+      pointerOffsetY: 470
+    preBoosterUseData:
+    - boosterType: 2
+      tooltipOrientation: 3
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 310
+      tooltipOffsetX: 30
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 60
+      pointerOffsetY: 520
+    - boosterType: 1
+      tooltipOrientation: 2
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 310
+      tooltipOffsetX: -30
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 60
+      pointerOffsetY: 520
+    winStreakUnlockData:
+    - pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 180
+      pointerOffsetY: 420
+    rewardTrackUnlockData:
+    - tooltipOrientation: 1
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 330
+      tooltipOffsetX: 0
+      tooltipOffsetY: 0
+      pointerOrientation: 1
+      pointerSizeHorizontal: 280
+      pointerSizeVertical: 280
+      pointerOffsetX: 30
+      pointerOffsetY: 370
+    lavaQuestStartData:
+    - stepDelay: 0.5
+      tooltipOrientation: 0
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: -100
+      tooltipOffsetY: 50
+    - stepDelay: 0
+      tooltipOrientation: 0
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: 0
+      tooltipOffsetY: -90
+    - stepDelay: 0
+      tooltipOrientation: 1
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 275
+      tooltipOffsetX: 0
+      tooltipOffsetY: 50
+    superSpeedWidgetData:
+    - pointerOrientation: 1
+      pointerSizeHorizontal: 250
+      pointerSizeVertical: 250
+      pointerOffsetX: 60
+      pointerOffsetY: 420
+    playerProfileUseData:
+    - tooltipOrientation: 3
+      tooltipSizeHorizontal: 500
+      tooltipSizeVertical: 200
+      tooltipOffsetX: -100
+      tooltipOffsetY: 0
+      pointerOrientation: 0
+      pointerSizeHorizontal: 250
+      pointerSizeVertical: 250
+      pointerOffsetX: 60
+      pointerOffsetY: -420
+    lockLevelStartUntilTutorialData: 0c0000000e00000010000000

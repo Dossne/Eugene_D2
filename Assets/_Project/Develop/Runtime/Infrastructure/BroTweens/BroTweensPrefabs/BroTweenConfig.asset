@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487cb5d7d5b34ad0a3b9be3f68ff9541, type: 3}
+  m_Name: BroTweenConfig
+  m_EditorClassIdentifier: 
+  buttonBounce:
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.99901867
+        inSlope: -0.6739043
+        outSlope: -0.6739043
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.16544874
+      - serializedVersion: 3
+        time: 0.41416383
+        value: 0.9001365
+        inSlope: 0.1011345
+        outSlope: 0.1011345
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2045851
+        outWeight: 0.23458117
+      - serializedVersion: 3
+        time: 0.77184886
+        value: 1.0509769
+        inSlope: 0.03134299
+        outSlope: 0.03134299
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.17890492
+        outWeight: 0.25520208
+      - serializedVersion: 3
+        time: 0.9993046
+        value: 0.99901867
+        inSlope: 0.37788874
+        outSlope: 0.37788874
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22373544
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    duration: 0.25
+    callbackDelay: 0.15
+  activeUidsStartCapacity: 250
+  activeScaledStartCapacity: 250
+  activeUnscaledStartCapacity: 250

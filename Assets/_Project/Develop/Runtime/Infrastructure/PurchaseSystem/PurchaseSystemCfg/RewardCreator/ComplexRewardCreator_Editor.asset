@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4fc59b5fcd29d40a70da8b80d6c92a, type: 3}
+  m_Name: ComplexRewardCreator_Editor
+  m_EditorClassIdentifier: 
+  targetObject:
+    noAdsIncluded: 0
+    currencyOfferRewards:
+    - currencyType: 1
+      amount: 500
+      overrideIconId: complex_offer_coins_var2
+      isDisplayRibbon: 1
+    boosterRewards:
+    - boosterType: 5
+      amount: 1
+      isDisplayRibbon: 0
+      isDisplayAmount: 0
+    preBoosterRewards:
+    - boosterType: 2
+      amount: 1
+      isDisplayRibbon: 0
+      isDisplayAmount: 0
+    infinitePreBoosterRewards: []
+    infiniteLifeReward:
+      timeLengthMinutes: 0
+      isDisplayTimeText: 0
+      isDisplayRibbon: 0
+    containerId: 
+  generatedJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":500,"overrideIconId":"complex_offer_coins_var2","isDisplayRibbon":true}],"boosterRewards":[{"boosterType":"ObjectFinder","amount":1,"isDisplayRibbon":false}],"preBoosterRewards":[{"boosterType":"BoostBottle","amount":1,"isDisplayRibbon":false}]}'

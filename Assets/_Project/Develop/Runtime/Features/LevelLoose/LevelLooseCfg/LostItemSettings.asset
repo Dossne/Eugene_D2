@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07051039f0ac6b64981e4b93525e6808, type: 3}
+  m_Name: LostItemSettings
+  m_EditorClassIdentifier: 
+  settings:
+    _serializedList:
+    - Key: 6
+      Value:
+        priority: 1
+        needCross: 1
+        needTextBack: 0
+        textBackId: widget_lava_timer_2
+    - Key: 7
+      Value:
+        priority: 2
+        needCross: 1
+        needTextBack: 1
+        textBackId: multiplier_lose_icon
+    - Key: 5
+      Value:
+        priority: 5
+        needCross: 1
+        needTextBack: 1
+        textBackId: widget_lava_timer_2
+    - Key: 0
+      Value:
+        priority: 10
+        needCross: 1
+        needTextBack: 0
+        textBackId: widget_lava_timer_2
+    - Key: 1
+      Value:
+        priority: 15
+        needCross: 1
+        needTextBack: 0
+        textBackId: widget_lava_timer_2
+    - Key: 4
+      Value:
+        priority: 20
+        needCross: 1
+        needTextBack: 0
+        textBackId: widget_lava_timer_2
+    - Key: 2
+      Value:
+        priority: 25
+        needCross: 1
+        needTextBack: 0
+        textBackId: widget_lava_timer_2
+    - Key: 3
+      Value:
+        priority: 30
+        needCross: 1
+        needTextBack: 0
+        textBackId: widget_lava_timer_2

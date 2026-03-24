@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf3aec567c1b47b19b8c24ae52336465, type: 3}
+  m_Name: LocalizationConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.9.0
+  isRemote: 1
+  configData:
+    datas:
+    - key: utils_t_d
+      en: d
+    - key: utils_t_h
+      en: h
+    - key: utils_t_m
+      en: m
+    - key: utils_t_s
+      en: s
+    - key: setting_title
+      en: Settings
+    - key: setting_music
+      en: MUSIC
+    - key: setting_sound
+      en: SOUND
+    - key: setting_haptic
+      en: HAPTIC
+    - key: settings_quality
+      en: GRAPHICS
+    - key: settings_fps
+      en: FPS {1}/{2}
+    - key: settings_restore_purchases
+      en: Restore purchases
+    - key: settings_withdraw_consent
+      en: Withdraw consent
+    - key: character_size
+      en: Scale
+    - key: character_lvlup_size
+      en: Scale {1}!
+    - key: character_size_up
+      en: Level up!
+    - key: metahud_start_game
+      en: Level {1}
+    - key: popup_compl_hdr
+      en: Wonderful!
+    - key: popup_compl_btn
+      en: Next
+    - key: notify_ads_load
+      en: Need an internet connection
+    - key: notify_ads_not_finish
+      en: AD not finished
+    - key: popup_loose_hdr
+      en: Level Failed
+    - key: popup_loose_btn
+      en: Try Again
+    - key: popup_resurr_hdr_bomb
+      en: Continue?
+    - key: popup_resurr_bomb_cnd
+      en: Add an <color=#BA0118>Extra Life</color> to keep playing?
+    - key: popup_resurr_ads_btn
+      en: FREE
+    - key: popup_resurr_hdr_time
+      en: Continue?
+    - key: popup_resurr_time_cnd
+      en: Add <color=#BA0118>{1} sec</color> to keep playing?
+    - key: popup_resurr_hdr_loose_itm
+      en: You will lose your {1} and {2}!
+    - key: popup_resurr_btn
+      en: Play On
+    - key: currency_coins
+      en: Coins
+    - key: not_enough_currency
+      en: Not enough {1}
+    - key: settings_leave_level
+      en: Quit
+    - key: boosters_lock
+      en: Lv.{1}
+    - key: preboost_popup_reward
+      en: Rewards
+    - key: preboost_popup_select_booster
+      en: 'Select boosters:'
+    - key: preboost_popup_level
+      en: Level {1}
+    - key: boost_buy_popup_btn
+      en: Buy
+    - key: boost_bottle_name
+      en: Boost Bottle
+    - key: boost_bottle_desc
+      en: Start the level with bigger size!
+    - key: bonus_clock_name
+      en: Bonus Clock
+    - key: bonus_clock_desc
+      en: Start the level with additional {1} seconds!
+    - key: tap_to_collect
+      en: Tap to collect
+    - key: shop_reward_popup_success_purchase
+      en: Success purchase!
+    - key: message_popup_load
+      en: Loading...
+    - key: message_popup_ok
+      en: Ok
+    - key: floating_text_no_internet
+      en: No internet connection
+    - key: loading_popup_connecting
+      en: Connecting...
+    - key: loading_popup_purchasing
+      en: Purchasing...
+    - key: size_booster_name
+      en: Expander
+    - key: size_booster_desc
+      en: Expands the Hole for {1} seconds
+    - key: freeze_booster_name
+      en: Time Stop
+    - key: freeze_booster_desc
+      en: Stops the time for {1} seconds
+    - key: magnet_booster_name
+      en: Vacuum
+    - key: magnet_booster_desc
+      en: Engulfs objects into the hole for {1} seconds
+    - key: quit_level_popup_header
+      en: Quit Level?
+    - key: quit_level_popup_quit
+      en: Quit
+    - key: quit_level_popup_lose_life
+      en: You will lose a <color=#BA0118>Life</color>!
+    - key: pre_booster_popup_play
+      en: Play
+    - key: pre_booster_popup_retry
+      en: Try Again
+    - key: buy_life_popup_header
+      en: More Health!
+    - key: buy_life_popup_refill
+      en: Refill
+    - key: buy_life_popup_time_to_next
+      en: 'Next life in:'
+    - key: full_life
+      en: Full
+    - key: object_finder_name
+      en: Magnifier
+    - key: object_finder_desc
+      en: Indicates the location of the target items for {1} seconds
+    - key: no_ads
+      en: No Ads
+    - key: shop
+      en: Shop
+    - key: rh_no_ads_header
+      en: No Ads
+    - key: rh_coins_header
+      en: Coins
+    - key: no_ads_rec_header
+      en: ADS Notice
+    - key: no_ads_rec_description
+      en: Ads help us keep adding new content. You can go ad-free for uninterrupted
+        play
+    - key: no_ads_rec_with_ads_description
+      en: I'm okay with ads
+    - key: no_ads_rec_no_ads_description
+      en: I want fewer interruptions
+    - key: no_ads_rec_with_ads_button
+      en: Play with Ads
+    - key: no_ads_rec_no_ads_button
+      en: View benefits
+    - key: win_streak_pnl_hdr
+      en: Magic Hats
+    - key: win_streak_pnl_tooltip
+      en: Beat levels on your first try to start levels with power-ups!
+    - key: rh_best_deal_header_1
+      en: Best Deals
+    - key: rh_best_deal_1
+      en: Elite Pack
+    - key: rh_best_deal_2
+      en: Wonderful Pouch
+    - key: rh_best_deal_3
+      en: Premium Chest
+    - key: best_price_offer
+      en: Best price
+    - key: popular_offer
+      en: Popular
+    - key: win_streak_ban_unlock
+      en: Unlocks at <color=#FFE720>Level {1}</color>
+    - key: win_streak_ban_hdr
+      en: Magic Hats
+    - key: rh_best_deal_4
+      en: Magnificent Barrel
+    - key: rh_best_deal_5
+      en: Royal Crate
+    - key: rh_best_deal_6
+      en: Legendary Safe
+    - key: quit_level_popup_lose_winstreak
+      en: You will lose your <color=#BA0118>Magic Hat!</color>
+    - key: no_ads_plus
+      en: No Ads + Premium Offer
+    - key: floating_text_infinite_booster
+      en: Selected booster is endless
+    - key: popup_resurr_lost_winstreak
+      en: <color=#BA0118>Magic Hat</color>
+    - key: popup_resurr_lost_multiplier
+      en: <color=#BA0118>x2 Rewards</color>
+    - key: popup_resurr_lost_coins
+      en: <color=#BA0118>Coins</color>
+    - key: popup_resurr_lost_lives
+      en: <color=#BA0118>Life</color>
+    - key: reward_track_lock
+      en: Unlocks at <color=#FFE720>Level {1}</color>
+    - key: rh_super_discount_1
+      en: Legendary Offer
+    - key: rh_super_discount_2
+      en: Legendary Offer
+    - key: rh_super_discount_3
+      en: Legendary Offer
+    - key: rh_super_discount_4
+      en: Legendary Offer
+    - key: rh_super_discount_5
+      en: Legendary Offer
+    - key: rh_super_discount_6
+      en: Legendary Offer
+    - key: rh_super_discount_7
+      en: Legendary Offer
+    - key: rh_starter_pack
+      en: Starter Pack
+    - key: reward_track_state_header
+      en: Treasure Hunt
+    - key: reward_track_popup_tooltip
+      en: Collect more treasures to unlock this stage!
+    - key: rh_special_offer_header
+      en: Special Offers
+    - key: info_popup_tap_cont
+      en: Tap to continue
+    - key: reward_track_ip_1
+      en: Collect treasures
+    - key: reward_track_ip_2
+      en: Fill the progress bar
+    - key: reward_track_ip_3
+      en: Win rewards!
+    - key: reward_track_ip_4
+      en: Level Multipliers
+    - key: reward_track_last_reward
+      en: Ultimate Reward!
+    - key: reward_track_ip_4_2
+      en: Hard Levels
+    - key: reward_track_ip_4_3
+      en: Super Hard Levels
+    - key: reward_track_ip_4_4
+      en: Insane Levels
+    - key: reward_track_ip_4_5
+      en: Level Multipliers
+    - key: lava_quest_start
+      en: Start
+    - key: lava_quest_finish
+      en: Finished
+    - key: lava_quest_name
+      en: Volcano Escape
+    - key: lava_quest_start_popup_descr
+      en: Beat <color=#ffcc00>{1} levels</color> without failing to complete the
+        challenge!
+    - key: lava_quest_start_popup_fail
+      en: 'You failed the challenge. Next Volcano Escape will start in:'
+    - key: lava_quest_connect_popup_find
+      en: Finding players on your level
+    - key: lava_quest_evt_popup_levels
+      en: Levels
+    - key: lava_quest_evt_popup_players
+      en: Players
+    - key: popup_resurr_hdr_lose_all
+      en: You will lose all your <color=#BA0118>achievements!</color>
+    - key: popup_resurr_lost_reward_track
+      en: popup_resurr_lost_reward_track
+    - key: popup_resurr_lost_lava_quest
+      en: popup_resurr_lost_lava_quest
+    - key: lava_quest_grand_prize
+      en: Grand Prize
+    - key: quit_level_popup_lose_coins
+      en: You will lose all <color=#BA0118>coins!</color>
+    - key: quit_level_popup_lose_all_items
+      en: You will lose all your <color=#BA0118>achievements!</color>
+    - key: lava_quest_event_popup_win
+      en: Congratulations! You completed the challenge!
+    - key: lava_quest_event_popup_loose
+      en: You failed the challenge. Better luck next time!
+    - key: lava_quest_event_popup_expire
+      en: Time of the event has expired. Better luck next time!
+    - key: lava_quest_event_popup_descr
+      en: Beat {1} levels without failing to complete the challenge!
+    - key: lava_quest_info_popup_players
+      en: Start with {1} players!
+    - key: lava_quest_info_popup_levels
+      en: Beat {1} levels without failing!
+    - key: lava_quest_info_popup_winshare
+      en: Win your share of <color=#FFE720>{1}</color> gold
+    - key: lava_quest_congrat_popup_header
+      en: Congratulations!
+    - key: lava_quest_congrat_popup_win
+      en: You win!
+    - key: lava_quest_congrat_popup_sharing
+      en: You are sharing the reward with {1} other winners!
+    - key: info_popup_tap_to_claim
+      en: Tap to Claim
+    - key: item_tutorial_popup_subheader
+      en: New booster unlocked!
+    - key: item_tutorial_popup_tapbutton
+      en: Tap to continue
+    - key: move_tutorial_tooltip
+      en: move_tutorial_tooltip
+    - key: eat_tutorial_tooltip
+      en: eat_tutorial_tooltip
+    - key: finish_level_tutorial_tooltip
+      en: finish_level_tutorial_tooltip
+    - key: free_paid_offer_slot_btn
+      en: Free

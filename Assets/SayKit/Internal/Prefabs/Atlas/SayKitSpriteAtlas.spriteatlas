@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SayKitSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 33
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 65
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: dbc6cda9ed48a4a55bd5faacafa05302, type: 3}
+    - {fileID: 2800000, guid: 180599055761849d5b412b7341841583, type: 3}
+    - {fileID: 2800000, guid: f764fe7abc65e4b0d80cbf1d2d210fa0, type: 3}
+    - {fileID: 2800000, guid: 1382c235b86494f1bbf12c07716f6559, type: 3}
+    - {fileID: 2800000, guid: a0c0e1711abea43dbb71a85e1abfd97b, type: 3}
+    - {fileID: 2800000, guid: ee3e1a66b0f234099aa4d1b5d92142a3, type: 3}
+    - {fileID: 2800000, guid: 8d25cb15154f14321804c2c1261d2f92, type: 3}
+    - {fileID: 2800000, guid: 8e2cd4da4068d4c02ab5ddd9edeef25f, type: 3}
+    - {fileID: 2800000, guid: 175a1579fe6c1483b952e0698aefd8b1, type: 3}
+    - {fileID: 2800000, guid: 15d6bc5f39657446fa0c7af92575d474, type: 3}
+    - {fileID: 2800000, guid: aae8d2e793f52449c859cf029abae75b, type: 3}
+    - {fileID: 2800000, guid: c994f408ad1074e8abac90981e1ce98d, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a0c0e1711abea43dbb71a85e1abfd97b: 21300000
+    - 180599055761849d5b412b7341841583: 21300000
+    - 8d25cb15154f14321804c2c1261d2f92: 21300000
+    - 1382c235b86494f1bbf12c07716f6559: 21300000
+    - ee3e1a66b0f234099aa4d1b5d92142a3: 21300000
+    - aae8d2e793f52449c859cf029abae75b: 21300000
+    - c994f408ad1074e8abac90981e1ce98d: 21300000
+    - 175a1579fe6c1483b952e0698aefd8b1: 21300000
+    - dbc6cda9ed48a4a55bd5faacafa05302: 21300000
+    - f764fe7abc65e4b0d80cbf1d2d210fa0: 21300000
+    - 8e2cd4da4068d4c02ab5ddd9edeef25f: 21300000
+    - 15d6bc5f39657446fa0c7af92575d474: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a0c0e1711abea43dbb71a85e1abfd97b, type: 3}
+  - {fileID: 21300000, guid: 180599055761849d5b412b7341841583, type: 3}
+  - {fileID: 21300000, guid: 8d25cb15154f14321804c2c1261d2f92, type: 3}
+  - {fileID: 21300000, guid: 1382c235b86494f1bbf12c07716f6559, type: 3}
+  - {fileID: 21300000, guid: ee3e1a66b0f234099aa4d1b5d92142a3, type: 3}
+  - {fileID: 21300000, guid: aae8d2e793f52449c859cf029abae75b, type: 3}
+  - {fileID: 21300000, guid: c994f408ad1074e8abac90981e1ce98d, type: 3}
+  - {fileID: 21300000, guid: 175a1579fe6c1483b952e0698aefd8b1, type: 3}
+  - {fileID: 21300000, guid: dbc6cda9ed48a4a55bd5faacafa05302, type: 3}
+  - {fileID: 21300000, guid: f764fe7abc65e4b0d80cbf1d2d210fa0, type: 3}
+  - {fileID: 21300000, guid: 8e2cd4da4068d4c02ab5ddd9edeef25f, type: 3}
+  - {fileID: 21300000, guid: 15d6bc5f39657446fa0c7af92575d474, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - button_share_background
+  - saycatalogue_default
+  - pop_up_background
+  - switch_image
+  - button_close_background
+  - sk_popup_icon
+  - sk_popup_progressbar
+  - ad_id_button_alert
+  - say_logo
+  - saycatalogue_rewarded
+  - alert_icon
+  - saypromo_ad
+  m_RenderDataMap: {}
+  m_Tag: SayKitSpriteAtlas
+  m_IsVariant: 0

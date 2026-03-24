@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a01ebeded89124da3721b7a651fc42, type: 3}
+  m_Name: LevelCollectableCounter
+  m_EditorClassIdentifier: 
+  lvl: lv_jel_1
+  levelConfig: {fileID: 11400000, guid: 30e0bbbaab9b4764e9d5037834e8e99d, type: 2}
+  collectableConfig: {fileID: 11400000, guid: c05c5f191a1635647b82715c7242195e, type: 2}
+  results:
+    _serializedList:
+    - Key: s0
+      Value: 66,7
+    - Key: s1
+      Value: 33,3

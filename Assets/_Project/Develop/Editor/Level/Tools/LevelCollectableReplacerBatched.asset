@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb78f29867ff1e4ebab90605d3ea576, type: 3}
+  m_Name: LevelCollectableReplacerBatched
+  m_EditorClassIdentifier: 
+  lvls: []
+  prefabPath: Assets/_Project/Develop/Editor/Level/LevelPrefabs/JelLevels
+  config: {fileID: 11400000, guid: 30e0bbbaab9b4764e9d5037834e8e99d, type: 2}
+  replaceDataList:
+  - fromItemObject: {fileID: 5930425273070427273, guid: ddcd837f14aabe44ab5fcfa93d02a9b3,
+      type: 3}
+    toItemObject: {fileID: 4698825687765197885, guid: 1d39db2ddcf71454889d61e20fab0238,
+      type: 3}
+  affectedLevelPrefabs: []

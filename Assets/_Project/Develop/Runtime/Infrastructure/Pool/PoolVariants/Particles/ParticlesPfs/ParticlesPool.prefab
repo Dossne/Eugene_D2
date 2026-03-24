@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6012602383285739911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4101239027079353601}
+  - component: {fileID: 3445962470694792504}
+  m_Layer: 0
+  m_Name: ParticlesPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101239027079353601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6012602383285739911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3445962470694792504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6012602383285739911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9c428706db5a944a8bc220193898777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolTag: 
+  settings:
+    itemInject: 0
+    preWarmCount: 0
+    maxPoolSize: 100
+    logOnMaxReach: 1
+    createNewOnMaxReach: 0
+    resetParentOnRelease: 0
+    itemWorldSpace: 1
+    instantiateActiveGo: 0
+    instantiateAsync: 1
+  items:
+  - poolItemKey: 0
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: f8fc5f9925e0f714c942cb0bf980c84a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  - poolItemKey: 1
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: f8fc5f9925e0f714c942cb0bf980c84a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  - poolItemKey: 2
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: f8fc5f9925e0f714c942cb0bf980c84a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  - poolItemKey: 3
+    assetSourceData:
+      assetSourceType: 2
+      addressablePath: 
+      addressableRef:
+        m_AssetGUID: 81c4b5efc0caa9b4a8b1e7e786a10b91
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      resourceFullPath: 
+      gameObjectPrefab: {fileID: 0}
+    useSpecificSettings: 0
+    specificSettings:
+      itemInject: 0
+      preWarmCount: 0
+      maxPoolSize: 100
+      logOnMaxReach: 1
+      createNewOnMaxReach: 0
+      resetParentOnRelease: 0
+      itemWorldSpace: 1
+      instantiateActiveGo: 0
+      instantiateAsync: 1
+  subPools:
+    _serializedList: []

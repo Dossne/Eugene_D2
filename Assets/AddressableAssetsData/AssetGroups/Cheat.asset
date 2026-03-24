@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Cheat
+  m_EditorClassIdentifier: 
+  m_GroupName: Cheat
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3bfb83ca1b5fa894785a598a67e19d7e
+  m_SerializeEntries:
+  - m_GUID: 0c9f5f75f31807b46a8f021cdbe16288
+    m_Address: CheatLoadPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61bd6fe6d33ba0d4388fd841aaba1682
+    m_Address: CheatSocialPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67117722a812a2e46ab8cb8eafbf5f5e
+    m_Address: IngameDebugConsole
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a836f8952e00f2e4080691820bda977f
+    m_Address: CheatTimeCyclesPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b64c178132e3c1a4fbe632c01ec644aa
+    m_Address: CheatSavePopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bda177b978ed15b409dd8855a5ba46e3
+    m_Address: CheatMainMenuPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7b95951ea2805a4abf1fbfe1973ea36
+    m_Address: CheatDateTimePopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 858086e502efb8f4d9edbbdb540a1971, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d80a315d8cfb6f441b184ffb0372bd56, type: 2}
+    - {fileID: 11400000, guid: b9d4f1f2187d92c48ba71dc9be6456ab, type: 2}

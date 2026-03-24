@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb816190e0be724b884d6b2e4d23c36, type: 3}
+  m_Name: ShadowsConfig
+  m_EditorClassIdentifier: 
+  isDebug: 0
+  shadowDistance:
+    _serializedList:
+    - Key: 1
+      Value: 16
+    - Key: 2
+      Value: 18
+    - Key: 3
+      Value: 20
+    - Key: 4
+      Value: 22
+    - Key: 5
+      Value: 26
+    - Key: 6
+      Value: 28
+    - Key: 7
+      Value: 31
+    - Key: 8
+      Value: 33
+    - Key: 9
+      Value: 35
+    - Key: 10
+      Value: 37
+  shadowOffMaxY: 0.2
+  shadowOff:
+    _serializedList:
+    - Key: 1
+      Value: 0
+    - Key: 2
+      Value: 0
+    - Key: 3
+      Value: 0
+    - Key: 4
+      Value: 1
+    - Key: 5
+      Value: 1
+    - Key: 6
+      Value: 1
+    - Key: 7
+      Value: 1
+    - Key: 8
+      Value: 1
+    - Key: 9
+      Value: 1
+    - Key: 10
+      Value: 2

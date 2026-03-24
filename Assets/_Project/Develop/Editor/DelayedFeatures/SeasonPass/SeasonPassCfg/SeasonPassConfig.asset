@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1889363b277c4acba1ae4009a14246ff, type: 3}
+  m_Name: SeasonPassConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.14.0
+  isRemote: 1
+  configData:
+    featureData:
+    - isEnabled: 1
+      showWidgetLevel: 3
+      unlockLevel: 31
+      giveCountPerLevel: 1
+    rewards:
+    - stepNumber: 1
+      collectCount: 10
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":1,"isDisplayRibbon":false}]}'
+      premiumRewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":10,"isDisplayRibbon":false}]}'
+    - stepNumber: 2
+      collectCount: 20
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":2,"isDisplayRibbon":false}]}'
+      premiumRewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":20,"isDisplayRibbon":false}]}'
+    - stepNumber: 3
+      collectCount: 30
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":3,"isDisplayRibbon":false}]}'
+      premiumRewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":30,"isDisplayRibbon":false}]}'
+    - stepNumber: 4
+      collectCount: 40
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":4,"isDisplayRibbon":false}]}'
+      premiumRewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":40,"isDisplayRibbon":false}]}'
+    - stepNumber: 5
+      collectCount: 50
+      rewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":5,"isDisplayRibbon":false}]}'
+      premiumRewardJson: '{"currencyOfferRewards":[{"currencyType":"Coins","amount":50,"isDisplayRibbon":false}]}'

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>method</key>
+	<string>REPLACE_ME_METHOD</string>
+	<key>signingCertificate</key>
+	<string>iOS Distribution</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>REPLACE_ME_BUNDLE</key>
+		<string>REPLACE_ME_PROVISION_PROFILE_NAME</string>
+	</dict>
+	<key>iCloudContainerEnvironment</key>
+	<string>Production</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>uploadBitcode</key>
+	<false/>
+	<key>uploadSymbols</key>
+	<true/>
+</dict>
+</plist>

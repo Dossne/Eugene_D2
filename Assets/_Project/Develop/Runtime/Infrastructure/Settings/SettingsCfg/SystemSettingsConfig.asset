@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bd4cc962b94a32a665b56c3051e999, type: 3}
+  m_Name: SystemSettingsConfig
+  m_EditorClassIdentifier: 
+  fileName: vort_1.16.0
+  isRemote: 1
+  configData:
+    datas:
+    - haveMusic: 1
+      haveSound: 1
+      haveHaptic: 1
+      haveJoystickFollow: 0
+      haveGraphicSettings: 1
+      lowResolutionScale: 0.5
+      highResolutionScale: 0.66
+      lowGraphicsMemorySize: 512
+      lowSystemMemorySize: 3072
+      haveFpsSettings: 0
+      lowFps: 30
+      highFps: 60
+      isUsingSayKit: 1
+      gravity: 9.81
+      holeSpeedMultiplier: 1
+      haveFirstLoadProlongation: 0
+      useLevelFiles: 1
